@@ -33,48 +33,17 @@ The repository is organized into two main parts:
 - **SQL_Load/**: scripts to create tables and load/import data (if included). :contentReference[oaicite:1]{index=1}  
 - **SQL_Quarries/**: the main analysis queries (5 SQL scripts). :contentReference[oaicite:2]{index=2}  
 
-### 1) Top Paying Jobs
 ### 1) Top Paying Jobs (Remote / "Anywhere")
 
-This query identifies the **top 10 highest-paying roles** in the dataset for jobs tagged as **Data Analyst** with location set to **"Anywhere"** (remote), while excluding rows with missing salary values.  
-It also joins company information to make the results more readable and useful.
+This query returns the **top 10 highest-paying remote Data Analyst roles** (location = "Anywhere") with non-null salaries, and joins company names for readability.
 
-#### Why this matters
-When people search for “Data Analyst” roles, they often assume the title reflects a standard salary range.  
-But the data shows something different: **high-paying jobs can appear under analyst titles**, and the top salaries can be extreme outliers compared to the rest of the market.
+**Query + Result**
+![Top Paying Jobs Query](screenshots/top_paying_jobs/00_top_paying_jobs_query.png)
 
----
+**Top Paying Roles (Visualization)**
+![Top Paying Roles Chart](screenshots/top_paying_jobs/01_top_paying_roles_salary_barh.png)
 
-#### Visual 1 — Top Paying Roles (Salary Ranking)
-This chart ranks the **top 10 remote roles** by average yearly salary.  
-You can quickly see which job titles and companies dominate the top end.
-
-![Top Paying Roles - Salary Ranking](screenshots/top_paying_jobs/01_top_paying_roles_salary_barh.png)
-
----
-
-#### Visual 2 — Salary Spread (How wide is the gap?)
-This chart shows the **salary distribution across the top 10**.  
-It highlights how the #1 role is a major outlier and how salaries drop sharply after the first few roles.
-
-![Salary Spread Across Top 10](screenshots/top_paying_jobs/02_salary_spread_line.png)
-
----
-
-#### Visual 3 — Degree Requirement Signal
-A useful detail in the dataset is whether the posting **mentions a degree requirement**.
-In the top-paying set, some roles **do not mention a degree**, which can signal skills-first hiring.
-
-![Degree Mention Breakdown](screenshots/top_paying_jobs/03_degree_mention_bar.png)
-
----
-
-#### Key takeaways
-- The top-paying “Data Analyst” market includes **senior titles** (Director / Principal), not only entry-level analyst roles.
-- Salaries in the top 10 show a **large spread**, meaning a small number of roles drive the extreme high end.
-- Some top-paying postings **do not mention a degree requirement**, suggesting that experience + skills can matter more than formal education in certain roles.
-
-> Next step: connect these top-paying roles to skills to see **which tools/skills appear most often** in high-salary jobs.
+**Quick insight:** The highest salaries are concentrated in a few roles, showing a sharp drop-off after the top positions.
 
 
 ### 2) Top Paying Job Skills
