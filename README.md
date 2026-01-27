@@ -33,17 +33,6 @@ The repository is organized into two main parts:
 - **SQL_Load/**: scripts to create tables and load/import data (if included). :contentReference[oaicite:1]{index=1}  
 - **SQL_Quarries/**: the main analysis queries (5 SQL scripts). :contentReference[oaicite:2]{index=2}  
 
-### 1) Top Paying Jobs (Remote / "Anywhere")
-
-This query returns the **top 10 highest-paying remote Data Analyst roles** (location = "Anywhere") with non-null salaries, and joins company names for readability.
-
-**Query + Result**
-![Top Paying Jobs Query](screenshots/top_paying_jobs/00_top_paying_jobs_query.png)
-
-**Top Paying Roles (Visualization)**
-![Top Paying Roles Chart](screenshots/top_paying_jobs/01_top_paying_roles_salary_barh.png)
-
-**Quick insight:** The highest salaries are concentrated in a few roles, showing a sharp drop-off after the top positions.
 
 
 ### 2) Top Paying Job Skills
