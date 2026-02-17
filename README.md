@@ -34,7 +34,7 @@ The repository is organized into two main parts:
 - **SQL_Quarries/**: the main analysis queries (5 SQL scripts). :contentReference[oaicite:2]{index=2}  
 
 ### 1) Top Paying Jobs
-**File:** 1 - Top Paying Jobs.SQL  
+**File:** `1 - Top Paying Jobs.SQL`  
 **Question:** Which job titles offer the highest salaries in the dataset?  
 **Approach:** Aggregate the job postings by title, compute the average salary, and rank descending to identify the top-paying roles.  
 
