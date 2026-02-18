@@ -38,6 +38,9 @@ The repository is organized into two main parts:
 **Question:** Which job titles offer the highest salaries in the dataset?  
 **Approach:** Aggregate the job postings by title, compute the average salary, and rank descending to identify the top-paying roles.  
 
+https://github.com/eslam200000/SQL_Project_Data_Job_Analysis/blob/main/SQL%20Pictures/1%20-%20Top%20Paying%20Jobs/1%20-%20Top%20Paying%20Jobs%20Chart.png
+
+https://github.com/eslam200000/SQL_Project_Data_Job_Analysis/blob/main/SQL%20Pictures/1%20-%20Top%20Paying%20Jobs/1%20-%20Top%20Paying%20Jobs%20SQL.png
 
 ### 2) Top Paying Job Skills
 **File:** `2 - Top Paying Job Skills.SQL`  
