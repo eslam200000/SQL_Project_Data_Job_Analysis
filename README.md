@@ -38,8 +38,6 @@ The repository is organized into two main parts:
 **Question:** Which job titles offer the highest salaries in the dataset?  
 **Approach:** Aggregate the job postings by title, compute the average salary, and rank descending to identify the top-paying roles.  
 
-![image alt](image url)
-
 ![image alt](https://github.com/eslam200000/SQL_Project_Data_Job_Analysis/blob/63e611c7736866d05fb21b76e210fd6dc980c171/SQL%20Pictures/1%20-%20Top%20Paying%20Jobs/1%20-%20Top%20Paying%20Jobs%20SQL.png)
 
 ![image alt](https://github.com/eslam200000/SQL_Project_Data_Job_Analysis/blob/63e611c7736866d05fb21b76e210fd6dc980c171/SQL%20Pictures/1%20-%20Top%20Paying%20Jobs/1%20-%20Top%20Paying%20Jobs%20Chart.png)
@@ -49,20 +47,38 @@ The repository is organized into two main parts:
 **Question:** What skills are required for the highest paying Data Analyst roles?  
 **Approach:** Take the top-paying jobs and join them with skills tables to find the most common skills among them.
 
+![image alt](https://github.com/eslam200000/SQL_Project_Data_Job_Analysis/blob/3a832dd4ee17c8fda719f2a798d85ba35446eb3b/SQL%20Pictures/2%20-%20Top%20Paying%20Job%20Skills/2%20-%20Top%20Paying%20Job%20Skills%20SQL%20.png)
+
+![image alt](https://github.com/eslam200000/SQL_Project_Data_Job_Analysis/blob/3a832dd4ee17c8fda719f2a798d85ba35446eb3b/SQL%20Pictures/2%20-%20Top%20Paying%20Job%20Skills/2%20-%20Top%20Paying%20Job%20Skills%20Chart.png)
+
 ### 3) Top Demanding Skills
 **File:** `3 - Top Demanding Skills.SQL`  
 **Question:** Which skills appear most frequently in Data Analyst job postings?  
 **Approach:** Count skill frequency across postings and rank the most demanded skills.
+
+![image alt](https://github.com/eslam200000/SQL_Project_Data_Job_Analysis/blob/3a832dd4ee17c8fda719f2a798d85ba35446eb3b/SQL%20Pictures/3%20-%20Top%20Demanding%20Skills/3%20-%20Top%20Demanding%20Skills%20SQL.png)
+
+![image alt](https://github.com/eslam200000/SQL_Project_Data_Job_Analysis/blob/3a832dd4ee17c8fda719f2a798d85ba35446eb3b/SQL%20Pictures/3%20-%20Top%20Demanding%20Skills/3%20-%20Top%20Demanding%20Skills%20Chart.png)
 
 ### 4) Top Skills Based on Salary
 **File:** `4 - Top Skills Based on Salary.SQL`  
 **Question:** Which skills are associated with higher average salaries?  
 **Approach:** Group postings by skill and compute average salary per skill, then rank descending.
 
+![image alt](https://github.com/eslam200000/SQL_Project_Data_Job_Analysis/blob/3a832dd4ee17c8fda719f2a798d85ba35446eb3b/SQL%20Pictures/4%20-%20Top%20Skills%20Based%20on%20Salary/4%20-%20Top%20Skills%20Based%20on%20Salary%20SQL.png)
+
+![image alt](https://github.com/eslam200000/SQL_Project_Data_Job_Analysis/blob/3a832dd4ee17c8fda719f2a798d85ba35446eb3b/SQL%20Pictures/4%20-%20Top%20Skills%20Based%20on%20Salary/4%20-%20Top%20Skills%20Based%20on%20Salary%20Chart.png)
+
 ### 5) Top Skills to Learn
 **File:** `5 - Top Skills to learn.SQL`  
 **Question:** Which skills are both high-demand and high-paying (best ROI skills)?  
 **Approach:** Combine (demand frequency) + (average salary) to highlight skills that maximize job opportunities and pay.
+
+![image alt](https://github.com/eslam200000/SQL_Project_Data_Job_Analysis/blob/3a832dd4ee17c8fda719f2a798d85ba35446eb3b/SQL%20Pictures/5%20-%20Top%20Skills%20to%20learn/5%20-%20Top%20Skills%20to%20learn%20SQL.png)
+
+![image alt](https://github.com/eslam200000/SQL_Project_Data_Job_Analysis/blob/3a832dd4ee17c8fda719f2a798d85ba35446eb3b/SQL%20Pictures/5%20-%20Top%20Skills%20to%20learn/5%20-%20Most%20In-Demand%20Skills%20(Sample)%20%E2%80%94%202023.png)
+
+![image alt](https://github.com/eslam200000/SQL_Project_Data_Job_Analysis/blob/3a832dd4ee17c8fda719f2a798d85ba35446eb3b/SQL%20Pictures/5%20-%20Top%20Skills%20to%20learn/5%20-%20Average%20Salary%20By%20Skill%20(Sample)%20%E2%80%94%202023.png)
 
 ---
 
